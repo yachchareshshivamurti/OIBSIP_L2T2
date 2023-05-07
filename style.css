@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: none;
+    background: linear-gradient(to top, rgba(236, 172, 172, 0.35)50%,rgba(245, 157, 157, 0.35)50%), url(./back1.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.name{
+    margin-top: 1em;
+    font-size:40pt; 
+    text-shadow:2px 2px 5px rgb(115, 27, 27);
+    text-align: center;
+
+}
+.title{
+    font-family:'Brush Script MT',cursive;
+    text-align: center;
+}
+img{
+    box-shadow:  -12px -8px 15px rgba(0,0, 0.1),5px 5px 15px rgba(0,0, 0.1);
+    padding: 1.5%;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+
+
+.about{
+    font-size: 16pt;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+}
+
+.records{  text-shadow: 2px 2px 5px red;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.points{
+
+    font-size: 16pt;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 6%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+}
+.end{
+    font-size: 16pt;
+    color:black;
+    font-family:fantasy;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+}
+
